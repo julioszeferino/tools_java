@@ -1,0 +1,9 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>290</x><y>170</y><w>260</w><h>130</h></coordinates><panel_attributes>*Product*
+--
+- name: string
+- price: double
+- quantity: int
+--
++ totalValueInStock(): double
++ addProducts(quantity: int): void
++ removeProducts(quantity: int): void</panel_attributes><additional_attributes></additional_attributes></element></diagram>
